@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Share the book</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS\stylesheets.css">
+    </head>
+    
+
+    <body>
+        
+        <ul class="top-nav">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="EduWork.html">Edu/Work</a></li>  
+            <li><a class="active" href="sharebook.html">Share</a></li>
+         </ul>
+        <div class="header">
+            <h1>Share Your Book</h1>
+            
+        </div>
+    
+        <form class="sharebook">
+            <div class="form-lablecol">
+                <label for="firstname">FirstName</label>
+            </div>
+            <div class="form-inputcol">
+                <input type="text" name="fname" placeholder="First name..." required>
+            </div>
+            <div class="form-lablecol">
+                <label for="lastname">LastName</label>
+            </div>
+            <div class="form-inputcol">
+                <input type="text" name="lname"  placeholder="lastName.." required>
+            </div>
+            <div class="form-lablecol">
+                <label for="email">Email</label>
+            </div>
+            <div class="form-inputcol">
+                <input type="email" name="email"placeholder="Email.." required>
+            </div>
+            <div class="form-lablecol">
+                <label for="tel">PhoneN</label>
+            </div>
+            <div class="form-inputcol">
+                <input type="tel" name="telN"  placeholder="e.g:+2507.." required>
+            </div>
+            <div class="form-lablecol">
+                <label for="bookname">Book Name</label>
+            </div>
+            <div class="form-inputcol">
+                <input type="text" name="book-name" placeholder="nameofthebook.." required>
+            </div>
+            <div class="form-lablecol">
+                <label for="author">Author</label>
+            </div>
+            <div class="form-inputcol">
+                <input type="text" name="book-author" placeholder="book author.." required>
+            </div>
+            <div class="form-lablecol">
+                <label for="language">written in</label>
+            </div>
+            <div class="form-inputcol">
+                <select id="Languages" name="languages">
+                    <option value="English">English</option>
+                    <option value="French">French</option>
+                    <option value="Kinyarwand">Kinyarwanda</option>
+                </select>
+                
+            </div>
+            <div class="form-lablecol">
+                <label for="pubdate">Published Date</label>
+            </div>
+            <div class="form-inputcol">
+                <input type="date" name="pubdate" placeholder="Published Date.." required>
+            </div>
+            <div class="form-lablecol">
+                <label for="file">Uploadthebook</label>
+            </div>
+            <div class="form-inputcol">
+                <input type="file" name="upbook"  required>
+            </div>
+            <div class="form-lablecol">
+                <label for="summary">FirstName</label>
+            </div>
+            <div class="form-inputcol">
+                <textarea name="summary" id="summary" cols="30" rows="10" placeholder="write a book summary..."></textarea>
+            </div>
+            
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
+    </body>
+</html>
